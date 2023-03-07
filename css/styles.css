@@ -1,26 +1,17 @@
 /*********************** TAG Selectors ***********************/
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
 }
 
 p {
@@ -29,13 +20,35 @@ p {
 
 /*********************** CLASS Selectors ***********************/
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /*********************** ID Selectors ***********************/
 #title {
-  background-color: #ff4c68;
-  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /*********************** Navbar ***********************/
@@ -79,9 +92,11 @@ p {
 /*********************** Features ***********************/
 
 #features {
-  margin: auto;
-  background-color: #fff;
   position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 .features-icon {
@@ -101,9 +116,13 @@ p {
 /*********************** Testimonials ***********************/
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-img {
@@ -112,15 +131,10 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /*********************** Press ***********************/
 
 #press {
   padding: 7% 15%;
-  text-align: center;
   background-color: #ef8172;
 }
 
@@ -133,7 +147,10 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-col {
@@ -157,34 +174,15 @@ p {
   }
 }
 
-#cta {
-  color: #fff;
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 50px;
-}
-
-.cta-message {
-  font-size: 2.5rem;
-  width: 50%;
-  margin: auto;
-}
-
 .cta-download-button {
   margin: 5% 1% 5%;
-  text-align: center;
-}
-
-#footer {
-  padding: 60px;
-  text-align: center;
 }
 
 .footer-icon {
   font-size: 20px;
   color: black;
   text-decoration: none;
-  margin: 10px;
+  margin: 5px 10px;
 }
 
 .footer-icon:hover {
