@@ -29,7 +29,7 @@ p {
 
 /*********************** CLASS Selectors ***********************/
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /*********************** ID Selectors ***********************/
@@ -69,14 +69,19 @@ p {
 /*********************** Title Image ***********************/
 
 .title-image {
-  width: 60%;
+  margin-left: 50px;
+  width: 50%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /*********************** Features ***********************/
 
 #features {
   margin: auto;
+  background-color: #fff;
+  position: relative;
 }
 
 .features-icon {
@@ -90,7 +95,7 @@ p {
 
 .features-col {
   text-align: center;
-  padding: 5% 3%;
+  padding: 6% 3%;
 }
 
 /*********************** Testimonials ***********************/
@@ -133,4 +138,21 @@ p {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    transform: rotate(0deg);
+    position: static;
+    margin: 0;
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .download-button {
+    text-align: center;
+  }
 }
